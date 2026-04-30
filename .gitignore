@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# Docker
+.docker/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Federation / Identity artifacts
+federation_logs/
+token_traces/
+audit_records/
+trust_boundary_checkpoints/
+policy_eval_history/
+identity_mapping_cache/
+workload_trust_logs/
+exchange_session_data/
+federated_secrets_backup/
+compliance_reports/
